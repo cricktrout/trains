@@ -4,17 +4,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 
-h1, h5 {
+h1, h2, h3, h4, h5, p {
 text-align: center;
 }
 
-h1, h2, h3, h5, h5 {
+h1, h2, h3, h5, h5, p {
 padding: 0;
 margin: 0;
 }
 
 details {
   text-align: center;
+}
+
+details[open] {
+  padding: 10px;
 }
 
 th, td {
@@ -46,12 +50,15 @@ ul, li {
 
 <h1>Kevin's Train Locator</h1>
 
+<br>
+
 <details>
-	<summary>Oregon</summary>
+	<summary>Arizona</summary>
+	<p>(Data acquisition incomplete, not yet uploaded)</p>
 	<details>
-		<summary>&nbsp;&nbsp;Coastal</summary>
+		<summary>&nbsp;&nbsp;Region</summary>
 		<details>
-			<summary>&nbsp;&nbsp;&nbsp;&nbsp;Coos Bay Lumber #104</summary>
+			<summary>&nbsp;&nbsp;&nbsp;&nbsp;City</summary>
 			<table style="width:100%">
 				<thead>
 					<tr>
@@ -63,19 +70,103 @@ ul, li {
 				</thead>
 				<tbody>
 					<tr>
-						<td><a href="oregon/Baldwin55911.html">Coos Bay Lumber</a></td>
+						<td><a href="arizona/NNNNNNXXXXX.html">Railroad</a></td>
+						<td>Engine #</td>
+						<td>Builder</td>
+						<td>Build#</td>
+					</tr>
+				<tbody>
+			</table>
+		</details> <!-- City -->
+	</details> <!-- Arizona Region -->
+</details> <!-- Arizona -->
+
+<details>
+	<summary>California</summary>
+	<p>(Data acquisition complete, not yet uploaded)</p>
+	<details>
+		<summary>&nbsp;&nbsp;Coastal</summary>
+		<details>
+			<summary>&nbsp;&nbsp;&nbsp;&nbsp;City</summary>
+			<table style="width:100%">
+				<thead>
+					<tr>
+						<th style="width:30%">Railroad</th>
+						<th style="width:15%">Engine #</th>
+						<th style="width:15%">Builder</th>
+						<th>Build #</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><a href="california/NNNNNNXXXXX.html">Railroad</a></td>
+						<td>Engine #</td>
+						<td>Builder</td>
+						<td>Build#</td>
+					</tr>
+				<tbody>
+			</table>
+		</details> <!-- City -->
+	</details> <!-- California Coastal -->
+</details> <!-- California -->
+
+<details>
+	<summary>Oregon</summary>
+	<p>(Data acquisition complete, upload in progress)</p>
+	<details>
+		<summary>&nbsp;&nbsp;Coastal</summary>
+		<details>
+			<summary>&nbsp;&nbsp;&nbsp;&nbsp;Coos Bay</summary>
+			<table style="width:100%">
+				<thead>
+					<tr>
+						<th style="width:30%">Railroad</th>
+						<th style="width:15%">Engine #</th>
+						<th style="width:15%">Builder</th>
+						<th>Build #</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><a href="oregon/baldwin55911.html">Coos Bay Lumber</a></td>
 						<td>104</td>
 						<td>Baldwin</td>
 						<td>55911</td>
 					</tr>
 				<tbody>
 			</table>
-		</details> <!-- Oregon Coastal -->
-
-	</details> <!-- Series -->
+		</details> <!-- Coos Bay -->
+	</details> <!-- Oregon Coastal -->
 </details> <!-- Oregon -->
 
+<details>
+	<summary>Washington</summary>
+	<p>(Data acquisition incomplete, not yet uploaded)</p>
+	<details>
+		<summary>&nbsp;&nbsp;Coastal</summary>
+		<details>
+			<summary>&nbsp;&nbsp;&nbsp;&nbsp;City</summary>
+			<table style="width:100%">
+				<thead>
+					<tr>
+						<th style="width:30%">Railroad</th>
+						<th style="width:15%">Engine #</th>
+						<th style="width:15%">Builder</th>
+						<th>Build #</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><a href="washington/NNNNNNXXXXX.html">Railroad</a></td>
+						<td>Engine #</td>
+						<td>Builder</td>
+						<td>Build#</td>
+					</tr>
+				<tbody>
+			</table>
+		</details> <!-- City -->
+	</details> <!-- Washington Coastal -->
+</details> <!-- Washington -->
+
 </body>
-
 </html>
-
