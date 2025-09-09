@@ -1,172 +1,734 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
+	<title>Kevin's Train List</title>
+	<link rel="icon" type="image/x-icon" href="admin/logo.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="admin/train.css">
 
-h1, h2, h3, h4, h5, p {
-text-align: center;
-}
-
-h1, h2, h3, h5, h5, p {
-padding: 0;
-margin: 0;
-}
-
-details {
-  text-align: center;
-}
-
-details[open] {
-  padding: 10px;
-}
-
-th, td {
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-td, tr {
-  text-align: center;
-}
-
-tr:nth-child(even) {
-    background-color: #d3d3d3;
-}
-
-ul, li {
-  text-align: left;
-}
-
-.red {
-	color:red;
-}
-
-</style>
+	<style>
+	</style>
 </head>
 <body>
 
 <h1>Kevin's Train Locator</h1>
-
+<br>
+<p class="center"><a href="map.html"><img class="map" src="admin/map.png" alt="View Map"></a></p>
 <br>
 
-<details>
-	<summary>Arizona</summary>
+<h4><a href="library/railroads.html">List of railroads and abbreviations</a></h4>
+
+<!-- ******************************
+************* Glossary *************
+********************************-->
+<details class="center">
+	<summary>Glossary</summary>
+	<table style="width:100%">
+		<thead>
+			<tr>
+				<th style="width:10%">Term</th>
+				<th style="width:5%">Source</th>
+				<th>Summary</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><a href="library/whyte.html">F.M. Whyte:</a></td>
+				<td><a href="https://en.wikipedia.org/wiki/Whyte_notation" target="_blank">Wikipedia</a></td>
+				<td> A classification notation system created by Frederick Methvan Whyte to classify steam locomotives by wheel arrangement.</td>
+			</tr>
+			<tr>
+				<td><a href="library/gauge.html">Gauge:</a></td>
+				<td><a href="https://en.wikipedia.org/wiki/Track_gauge" target="_blank">Wikipedia</a></td>
+				<td>Track gauge or rail gauge is the distance between the inner sides of the heads of the two load bearing rails that make up a single railway line.</td>
+			</tr>
+			<tr>
+				<td><a href="library/tractive.html">Tractive Effort:</a></td>
+				<td><a href="https://en.wikipedia.org/wiki/Tractive_effort" target="_blank">Wikipedia</a></td>
+				<td>A railway engineering term that describes the pulling or pushing capability of a locomotive.</td>
+			</tr>
+<!--
+			<tr>
+				<td><a href="URL" target="_blank">Term:</a></td>
+				<td><a href="URL" target="_blank">Wikipedia</a></td>
+				<td>Summary</td>
+			</tr>
+-->
+		<tbody>
+	</table>
+</details> <!-- Glossary -->
+
+<br>
+<p class="center">Generally, locomotives are sorted north to south, east to west</p>
+
+<!-- ******************************
+************* Arizona *************
+********************************-->
+<details class="center">
+	<summary class="center">Arizona</summary>
 	<p>(Data acquisition incomplete, not yet uploaded)</p>
 	<details>
 		<summary>&nbsp;&nbsp;Region</summary>
-		<details>
-			<summary>&nbsp;&nbsp;&nbsp;&nbsp;City</summary>
-			<table style="width:100%">
-				<thead>
-					<tr>
-						<th style="width:30%">Railroad</th>
-						<th style="width:15%">Engine #</th>
-						<th style="width:15%">Builder</th>
-						<th>Build #</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td><a href="arizona/NNNNNNXXXXX.html">Railroad</a></td>
-						<td>Engine #</td>
-						<td>Builder</td>
-						<td>Build#</td>
-					</tr>
-				<tbody>
-			</table>
-		</details> <!-- City -->
+		<table style="width:100%">
+			<thead>
+				<tr>
+					<th style="width:20%">City</th>
+					<th style="width:25%">Railroad</th>
+					<th style="width:15%">Engine #</th>
+					<th style="width:15%">Builder</th>
+					<th>Build #</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>City</td>
+					<td><a href="arizona/NNNNNNXXXXX.html">Railroad</a></td>
+					<td>Engine #</td>
+					<td>Builder</td>
+					<td>Build#</td>
+				</tr>
+			<tbody>
+		</table>
 	</details> <!-- Arizona Region -->
 </details> <!-- Arizona -->
 
-<details>
+<!-- ******************************
+*********** California ************
+********************************-->
+<details class="center">
 	<summary>California</summary>
-	<p>(Data acquisition complete, not yet uploaded)</p>
+	<p>(Upload in progress.)</p>
 	<details>
-		<summary>&nbsp;&nbsp;Coastal</summary>
-		<details>
-			<summary>&nbsp;&nbsp;&nbsp;&nbsp;City</summary>
-			<table style="width:100%">
-				<thead>
-					<tr>
-						<th style="width:30%">Railroad</th>
-						<th style="width:15%">Engine #</th>
-						<th style="width:15%">Builder</th>
-						<th>Build #</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td><a href="california/NNNNNNXXXXX.html">Railroad</a></td>
-						<td>Engine #</td>
-						<td>Builder</td>
-						<td>Build#</td>
-					</tr>
-				<tbody>
-			</table>
-		</details> <!-- City -->
-	</details> <!-- California Coastal -->
+		<summary>&nbsp;&nbsp;Sacramento</summary>
+		<table style="width:100%">
+			<thead>
+				<tr>
+					<th style="width:20%">City</th>
+					<th style="width:25%">Railroad</th>
+					<th style="width:15%">Engine #</th>
+					<th style="width:15%">Builder</th>
+					<th>Build #</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Roseville</td>
+					<td><a href="california/alco2360.html">Southern Pacific</a></td>
+					<td>2252</td>
+					<td>ALCO</td>
+					<td>2360</td>
+				</tr>
+				<tr>
+					<td>Folsom</td>
+					<td><a href="california/alan_shelly_unk.html">Folsom Valley Railway</a></td>
+					<td>3001</td>
+					<td>Alan Shelly</td>
+					<td></td>
+				</tr>
+			<tbody>
+		</table>
+	</details> <!-- California Sacramento -->
+	
+<!-- California Los Angeles -->
+	<details>
+		<summary>&nbsp;&nbsp;Los Angeles</summary>
+		<table style="width:100%">
+			<thead>
+				<tr>
+					<th style="width:20%">City</th>
+					<th style="width:25%">Railroad</th>
+					<th style="width:15%">Engine #</th>
+					<th style="width:15%">Builder</th>
+					<th>Build #</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Pomona</td>
+					<td><a href="california/alco2409.html">Outer Harbor Terminal</a></td>
+					<td>2</td>
+					<td>ALCO</td>
+					<td>2409</td>
+				</tr>
+			<tbody>
+		</table>
+	</details> <!-- California Sacramento -->
 </details> <!-- California -->
 
-<details>
+<!-- ******************************
+************* Oregon **************
+********************************-->
+<details class="center">
 	<summary>Oregon</summary>
-	<p>(Data acquisition complete, upload in progress)</p>
+	<p>(All data uploaded.)</p>
+<!-- Oregon Coastal -->
 	<details>
 		<summary>&nbsp;&nbsp;Coastal</summary>
-		<details>
-			<summary>&nbsp;&nbsp;&nbsp;&nbsp;Coos Bay</summary>
-			<table style="width:100%">
-				<thead>
-					<tr>
-						<th style="width:30%">Railroad</th>
-						<th style="width:15%">Engine #</th>
-						<th style="width:15%">Builder</th>
-						<th>Build #</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td><a href="oregon/baldwin55911.html">Coos Bay Lumber</a></td>
-						<td>104</td>
-						<td>Baldwin</td>
-						<td>55911</td>
-					</tr>
-				<tbody>
-			</table>
-		</details> <!-- Coos Bay -->
+		<table style="width:100%">
+			<thead>
+				<tr>
+					<th style="width:20%">City</th>
+					<th style="width:25%">Railroad</th>
+					<th style="width:15%">Engine #</th>
+					<th style="width:15%">Builder</th>
+					<th>Build #</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Astoria</td>
+					<td><a href="oregon/baldwin58368.html">Santa Maria Valley Railroad</a></td>
+					<td>21</td>
+					<td>Baldwin</td>
+					<td>58368</td>
+				</tr>
+				<tr>
+					<td>Wheeler/Rockaway Beach/Garibaldi</td>
+					<td><a href="oregon/alco66435.html">Rainier</a></td>
+					<td>25</td>
+					<td>ALCO</td>
+					<td>66435</td>
+				</tr>
+				<tr>
+					<td>Wheeler/Rockaway Beach/Garibaldi</td>
+					<td><a href="oregon/heisler1198.html">Curtiss Lumber</a></td>
+					<td>2</td>
+					<td>Heisler</td>
+					<td>1198</td>
+				</tr>
+				<tr>
+					<td>Garibaldi</td>
+					<td><a href="oregon/baldwin59071.html">McCloud River Railroad</a></td>
+					<td>90</td>
+					<td>Baldwin</td>
+					<td>59071</td>
+				</tr>
+				<tr>
+					<td>Toledo</td>
+					<td><a href="oregon/baldwin55347.html">Georgia-Pacific</a></td>
+					<td>1</td>
+					<td>Baldwin</td>
+					<td>55347</td>
+				</tr>
+				<tr>
+					<td>Florence</td>
+					<td><a href="oregon/alco56181.html">Marble Cliff Quarries</a></td>
+					<td>12</td>
+					<td>ALCO</td>
+					<td>56181</td>
+				</tr>
+				<tr>
+					<td>Coos Bay</td>
+					<td><a href="oregon/baldwin55911.html">Coos Bay Lumber</a></td>
+					<td>104</td>
+					<td>Baldwin</td>
+					<td>55911</td>
+				</tr>
+			<tbody>
+		</table>
 	</details> <!-- Oregon Coastal -->
+	
+<!-- Oregon Portland Metro -->
+	<details>
+		<summary>&nbsp;&nbsp;Portland Metro</summary>
+		<table style="width:100%">
+			<thead>
+				<tr>
+					<th style="width:20%">City</th>
+					<th style="width:25%">Railroad</th>
+					<th style="width:15%">Engine #</th>
+					<th style="width:15%">Builder</th>
+					<th>Build #</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Vernonia (Northeast of Portland, ~50 mi.)</td>
+					<td><a href="oregon/lima2490.html">Oregon America Logging</a></td>
+					<td>102</td>
+					<td>Lima</td>
+					<td>2490</td>
+				</tr>
+				<tr>
+					<td>Portland (East)</td>
+					<td><a href="oregon/lima2172.html">Stimson Mill Co</a></td>
+					<td>1</td>
+					<td>Lima</td>
+					<td>2172</td>
+				</tr>
+				<tr>
+					<td>Portland (East, Zoo)</td>
+					<td><a href="oregon/zootrain.html">Washington Park & Zoo Railway</a></td>
+					<td>1</td>
+					<td>Unknown</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>Portland</td>
+					<td><a href="oregon/baldwin_unk1.html">Great Northern Empire</a></td>
+					<td>2575</td>
+					<td>Baldwin</td>
+					<td>Unknown</td>
+				</tr>
+				<tr>
+					<td>Portland</td>
+					<td><a href="oregon/lima3233.html">Mt. Emily Lumber</a></td>
+					<td>1</td>
+					<td>Lima</td>
+					<td>3233</td>
+				</tr>
+				<tr>
+					<td>Portland</td>
+					<td><a href="oregon/baldwin25717.html">Oregon Railroad & Navigation</a></td>
+					<td>197</td>
+					<td>Baldwin</td>
+					<td>25717</td>
+				</tr>
+				<tr>
+					<td>Portland</td>
+					<td><a href="oregon/baldwin64310.html">Southern Pacific</a></td>
+					<td>4219</td>
+					<td>Baldwin</td>
+					<td>64310 (Tender only)</td>
+				</tr>
+				<tr>
+					<td>Portland</td>
+					<td><a href="oregon/lima7817.html">Southern Pacific</a></td>
+					<td>4449</td>
+					<td>Lima</td>
+					<td>7817</td>
+				</tr>
+				<tr>
+					<td>Portland</td>
+					<td><a href="oregon/baldwin62171.html">Spokane Portland & Seattle</a></td>
+					<td>700</td>
+					<td>Baldwin</td>
+					<td>62171</td>
+				</tr>
+				<tr>
+					<td>Cascade Locks (East of Portland, ~30 miles)</td>
+					<td><a href="oregon/vulcan_unk1.html">Oregon Portage Railway</a></td>
+					<td></td>
+					<td>Vulcan</td>
+					<td>Unknown</td>
+				</tr>
+			<tbody>
+		</table>
+	</details> <!-- Oregon Portland Metro -->
+	
+<!-- Oregon Central (I-5 corridor) -->
+	<details>
+		<summary>&nbsp;&nbsp;Central (I-5 corridor)</summary>
+		<table style="width:100%">
+			<thead>
+				<tr>
+					<th style="width:20%">City</th>
+					<th style="width:25%">Railroad</th>
+					<th style="width:15%">Engine #</th>
+					<th style="width:15%">Builder</th>
+					<th>Build #</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Woodburn</td>
+					<td><a href="oregon/baldwin20670.html">Southern Pacific</a></td>
+					<td>1785</td>
+					<td>Baldwin</td>
+					<td>20670</td>
+				</tr>
+				<tr>
+					<td>Keizer (N of Salem)</td>
+					<td><a href="oregon/baldwin24252.html">CyZ</a></td>
+					<td>2438</td>
+					<td>Baldwin</td>
+					<td>24252</td>
+				</tr>
+				<tr>
+					<td>Independence (E of Salem)</td>
+					<td><a href="oregon/baldwin57613.html">Santa Maria Valley Railroad</a></td>
+					<td>205</td>
+					<td>Baldwin</td>
+					<td>57613</td>
+				</tr>
+				<tr>
+					<td>Corvallis</td>
+					<td><a href="oregon/baldwin55399.html">Georgia Pacific</a></td>
+					<td>5</td>
+					<td>Baldwin</td>
+					<td>55399</td>
+				</tr>
+				<tr>
+					<td>Junction City (Northeast of Eugene)</td>
+					<td><a href="oregon/linne_n_jern68.html">Finnish State Railways</a></td>
+					<td>418</td>
+					<td>Linne & Jern</td>
+					<td>68</td>
+				</tr>
+				<tr>
+					<td>Sutherlin</td>
+					<td><a href="oregon/alco62965.html">Weyerhaeuser Railroad</a></td>
+					<td>100</td>
+					<td>ALCO</td>
+					<td>62965</td>
+				</tr>
+				<tr>
+					<td>Roseburg</td>
+					<td><a href="oregon/lima1496.html">Southern Pacific</a></td>
+					<td>1229</td>
+					<td>Lima</td>
+					<td>1496</td>
+				</tr>
+				<tr>
+					<td>Medford</td>
+					<td><a href="oregon/willamette18.html">Medford Cor</a></td>
+					<td>4</td>
+					<td>Willamette</td>
+					<td>18</td>
+				</tr>
+					<td>Medford</td>
+					<td><a href="oregon/vulcan224.html">Michigan-California Lumber</a></td>
+					<td>11</td>
+					<td>Vulcan</td>
+					<td>224</td>
+				</tr>
+				<tr>
+			<tbody>
+		</table>
+	</details> <!-- Oregon Central -->
+	
+<!-- Oregon Eastern -->
+	<details>
+		<summary>&nbsp;&nbsp;Eastern</summary>
+		<table style="width:100%">
+			<thead>
+				<tr>
+					<th style="width:20%">City</th>
+					<th style="width:25%">Railroad</th>
+					<th style="width:15%">Engine #</th>
+					<th style="width:15%">Builder</th>
+					<th>Build #</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Sumpter</td>
+					<td><a href="oregon/alco61980.html">Sumpter Valley Railroad</a></td>
+					<td>101</td>
+					<td>ALCO</td>
+					<td>61980</td>
+				</tr>
+				<tr>
+					<td>Sumpter</td>
+					<td><a href="oregon/alco61981.html">Sumpter Valley Railroad</a></td>
+					<td>102</td>
+					<td>ALCO</td>
+					<td>61981</td>
+				</tr>
+				<tr>
+					<td>Sumpter</td>
+					<td><a href="oregon/heisler1306.html">WH Eccles Lumber</a></td>
+					<td>3</td>
+					<td>Heisler</td>
+					<td>1306</td>
+				</tr>
+				<tr>
+					<td>Chiloquin (North of Klamath Falls)</td>
+					<td><a href="oregon/Baldwin7372.html">Mt Shasta Pine</a></td>
+					<td>1</td>
+					<td>Baldwin</td>
+					<td>7372</td>
+				</tr>
+				<tr>
+					<td>Klamath Falls</td>
+					<td><a href="oregon/baldwin27681.html">Southern Pacific</a></td>
+					<td>2579</td>
+					<td>Baldwin</td>
+					<td>27681</td>
+				</tr>
+				<tr>
+					<td>Merrill</td>
+					<td><a href="oregon/baldwin30519.html">Great Northern Empire</a></td>
+					<td>4</td>
+					<td>Baldwin</td>
+					<td>30519</td>
+				</tr>
+				<tr>
+					<td>Merrill</td>
+					<td><a href="oregon/lima3254.html">Pickering Lumber Co.</a></td>
+					<td>8</td>
+					<td>Lima</td>
+					<td>3254</td>
+				</tr>
+				<tr>
+					<td>Merrill</td>
+					<td><a href="oregon/baldwin32297.html">Long Bell Lumber</a></td>
+					<td>1246</td>
+					<td>Baldwin</td>
+					<td>32297</td>
+				</tr>
+				<tr>
+					<td>Merrill</td>
+					<td><a href="oregon/baldwin17679.html">McBryde Sugar</a></td>
+					<td>4</td>
+					<td>Baldwin</td>
+					<td>17679</td>
+				</tr>
+				<tr>
+					<td>Merrill</td>
+					<td><a href="oregon/baldwin56851.html">Oregon-American Lumber Co.</a></td>
+					<td>104</td>
+					<td>Baldwin</td>
+					<td>56851</td>
+				</tr>
+				<tr>
+					<td>Merrill</td>
+					<td><a href="oregon/baldwin58206.html">Oregon, Pacific and Eastern Railway</a></td>
+					<td>1</td>
+					<td>Baldwin</td>
+					<td>58206</td>
+				</tr>
+				<tr>
+					<td>Merrill</td>
+					<td><a href="oregon/baldwin59284.html">Santa Maria Valley</a></td>
+					<td>100</td>
+					<td>Baldwin</td>
+					<td>59284</td>
+				</tr>
+				<tr>
+					<td>Merrill</td>
+					<td><a href="oregon/baldwin29790.html">Sierra Railroad</a></td>
+					<td>18</td>
+					<td>Baldwin</td>
+					<td>29790</td>
+				<tr>
+					<td>Merrill</td>
+					<td><a href="oregon/alco68278.html">Sierra Railroad</a></td>
+					<td>36</td>
+					<td>ALCO</td>
+					<td>68278</td>
+				</tr>
+				<tr>
+					<td>Merrill</td>
+					<td><a href="oregon/baldwin58193.html">Vernonia, South Park & Sunset Steam Railroad</a></td>
+					<td>105</td>
+					<td>Baldwin</td>
+					<td>58193</td>
+				</tr>
+				<tr>
+					<td>Merrill</td>
+					<td><a href="oregon/baldwin61781.html">Weyerhaeuser</a></td>
+					<td>38</td>
+					<td>Baldwin</td>
+					<td>61781</td>
+				</tr>
+			<tbody>
+		</table>
+		<br>
+		<p class="center">* Not a locomotive. Miniature train park</p>
+		<br>
+	</details> <!-- Oregon Eastern -->
+	
+<!-- Oregon Live Steamers -->
+	<details>
+		<summary>&nbsp;&nbsp;Live Steamers</summary>
+		<p class="center">Incomplete. I will come back to add more once AZ, CA and WA are done.<p>
+		<table style="width:100%">
+			<thead>
+				<tr>
+					<th style="width:50%">City</th>
+					<th style="width:50%">Railroad</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Salem</td>
+					<td><a href="oregon/willow_creek.html">Willow Creek Railroad</a></td>
+				</tr>
+				<tr>
+					<td>Chiloquin (North of Klamath Falls)</td>
+					<td><a href="oregon/train_mountain.html">Train Mountain</a></td>
+				</tr>
+				<tr>
+					<td>Chiloquin (North of Klamath Falls)</td>
+					<td><a href="oregon/klamath_n_western.html">Klamath and Western</a></td>
+				</tr>
+			<tbody>
+		</table>
+		<br>
+		<br>
+	</details> <!-- Oregon Live Steamers -->	
+	
+<!-- Oregon Rumored -->
+	<details>
+		<summary>&nbsp;&nbsp;Rumored or Moved Locomotives</summary>
+		<p class="center">These locomotives are not marked on the map.<p>
+		<table style="width:100%">
+			<thead>
+				<tr>
+					<th style="width:20%">City</th>
+					<th style="width:25%">Railroad</th>
+					<th style="width:15%">Engine #</th>
+					<th style="width:15%">Builder</th>
+					<th>Build #</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+				<tr>
+					<td>Dallas (E of Salem)</td>
+					<td><a href="oregon/hkporter4077.html">Hosmer Mines</a> ‡ Ꚛ</td>
+					<td>5</td>
+					<td>H.K. Porter</td>
+					<td>4077</td>
+				</tr>
+				<tr>
+					<td>Eugene</td>
+					<td><a href="oregon/universal_dredge_mfg_unk1.html">Unknown</a> ‡ Ꚛ</td>
+					<td>131</td>
+					<td>Universal Dredge Mfg.</td>
+					<td>Unknown</td>
+				</tr>
+				<tr>
+					<td>Eugene</td>
+					<td><a href="oregon/hkporter3289.html">Homestake Mining</a> ‡ Ꚛ</td>
+					<td>4</td>
+					<td>H. K. Porter</td>
+					<td>3289</td>
+				</tr>
+				<tr>
+					<td>Gales Creek (east of Portland)</td>
+					<td><a href="oregon/berlinermaschinenbau8778.html">Ferrocarril Nales, SA</a> ‡ Ꚛ</td>
+					<td>5A</td>
+					<td>Berliner Maschinenbau, Actien Gesellschaft</td>
+					<td>8778</td>
+				</tr>
+				<tr>
+					<td>Galesburg (City does not exist)</td>
+					<td><a href="oregon/Unk_unk1.html">Unknown</a> ‡ Ꚛ</td>
+					<td>Unknown</td>
+					<td>Unknown</td>
+					<td>Unknown</td>
+				</tr>
+				<tr>
+					<td>Jacksonville (east of Medford)</td>
+					<td><a href="oregon/hkporter3087.html">Homestake Mining</a> ‡ Ꚛ</td>
+					<td>3</td>
+					<td>H.K. Porter</td>
+					<td>3087</td>
+				</tr>
+				<tr>
+					<td>Merlin (North of Grants Pass)</td>
+					<td><a href="oregon/hkporter4246.html">Homestake Mining</a> ‡ Ꚛ</td>
+					<td>20</td>
+					<td>H.K. Porter</td>
+					<td>4246</td>
+				</tr>
+				<tr>
+					<td>Salem</td>
+					<td><a href="oregon/vulcan2484.html">Glen Alden Coal</a> ‡ Ꚛ</td>
+					<td>9</td>
+					<td>Vulcan</td>
+					<td>2484</td>
+				</tr>
+				<tr>
+					<td>Salem</td>
+					<td><a href="oregon/vulcan3585.html">Glen Alden Coal</a> ‡ Ꚛ</td>
+					<td>4</td>
+					<td>Vulcan</td>
+					<td>3585</td>
+				</tr>
+				<tr>
+					<td>Salem</td>
+					<td><a href="oregon/vulcan4103.html">Ward Hayes Con</a> ‡ Ꚛ</td>
+					<td>103</td>
+					<td>Vulcan</td>
+					<td>4103</td>
+				</tr>
+				<tr>
+					<td>Salem</td>
+					<td><a href="oregon/vulcan4104.html">Ward Hayes Con</a> ‡ Ꚛ</td>
+					<td>104</td>
+					<td>Vulcan</td>
+					<td>4104</td>
+				</tr>
+				<tr>
+					<td>Sumpter</td>
+					<td><a href="oregon/hkporterunk1.html">Unknown</a> ‡ Ꚛ</td>
+					<td>Unknown</td>
+					<td>H.K. Porter</td>
+					<td>Unknown</td>
+				</tr>
+				<tr>
+					<td>Tillamook</td>
+					<td><a href="oregon/baldwin27311.html">Possibly moved to Washington</a> Ꚛ</td>
+					<td></td>
+					<td>Baldwin</td>
+					<td>27311</td>
+				</tr>
+				<tr>
+					<td>Tillamook</td>
+					<td><a href="oregon/heisler1155.html">Possibly moved to Washington</a> Ꚛ</td>
+					<td></td>
+					<td>Heisler</td>
+					<td>1155</td>
+				</tr>
+				<tr>
+					<td>Tillamook</td>
+					<td><a href="oregon/lima2305.html">Possibly moved to Washington</a> Ꚛ</td>
+					<td></td>
+					<td>Lima</td>
+					<td>2305</td>
+				</tr>
+				<tr>
+					<td>Unknown</td>
+					<td><a href="oregon/wdi_unk1.html">Ft. Wilderness</a> ‡ Ꚛ</td>
+					<td>1</td>
+					<td>Walt Disney Imagineering</td>
+					<td></td>
+				</tr>
+			<tbody>
+		</table>
+		<br>
+		<p class="center">‡ Very little to no information available.</p>
+		<p class="center">Ꚛ Location unknown or inaccessible.</p>
+		<br>
+	</details> <!-- Oregon rumored -->
+	
+	
 </details> <!-- Oregon -->
 
-<details>
+<!-- ******************************
+*********** Washington ************
+********************************-->
+<details class="center">
 	<summary>Washington</summary>
 	<p>(Data acquisition incomplete, not yet uploaded)</p>
 	<details>
-		<summary>&nbsp;&nbsp;Coastal</summary>
-		<details>
-			<summary>&nbsp;&nbsp;&nbsp;&nbsp;City</summary>
-			<table style="width:100%">
-				<thead>
-					<tr>
-						<th style="width:30%">Railroad</th>
-						<th style="width:15%">Engine #</th>
-						<th style="width:15%">Builder</th>
-						<th>Build #</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td><a href="washington/NNNNNNXXXXX.html">Railroad</a></td>
-						<td>Engine #</td>
-						<td>Builder</td>
-						<td>Build#</td>
-					</tr>
-				<tbody>
-			</table>
-		</details> <!-- City -->
+		<summary>&nbsp;&nbsp;Region</summary>
+		<table style="width:100%">
+			<thead>
+				<tr>
+					<th style="width:20%">City</th>
+					<th style="width:25%">Railroad</th>
+					<th style="width:15%">Engine #</th>
+					<th style="width:15%">Builder</th>
+					<th>Build #</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>City</td>
+					<td><a href="washington/NNNNNNXXXXX.html">Railroad</a></td>
+					<td>Engine #</td>
+					<td>Builder</td>
+					<td>Build#</td>
+				</tr>
+			<tbody>
+		</table>
 	</details> <!-- Washington Coastal -->
 </details> <!-- Washington -->
+
 
 </body>
 </html>

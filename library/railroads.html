@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>List of Railroads</title>
+	<link rel="icon" type="image/x-icon" href="../admin/logo.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../admin/train.css">
+
+	<style>
+	
+	
+table {
+	margin: 0px auto;
+}
+	
+.sr-only {
+  position: absolute;
+  top: -30em;
+}
+	
+table.sortable td,
+table.sortable th {
+  padding: 0.125em 0.25em;
+  /*width: 8em;*/
+}
+
+table.sortable th {
+  font-weight: bold;
+  /*border-bottom: thin solid #888;*/
+  position: relative;
+}
+
+table.sortable th.no-sort {
+  padding-top: 0.35em;
+}
+
+table.sortable th:nth-child(5) {
+  width: 10em;
+}
+
+table.sortable th button {
+  padding: 4px;
+  margin: 1px;
+  font-size: 100%;
+  font-weight: bold;
+  background: transparent;
+  border: none;
+  display: inline;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+}
+
+table.sortable th button span {
+  position: absolute;
+  right: 4px;
+}
+
+table.sortable th[aria-sort="descending"] span::after {
+  content: "▼";
+  color: currentcolor;
+  font-size: 100%;
+  top: 0;
+}
+
+table.sortable th[aria-sort="ascending"] span::after {
+  content: "▲";
+  color: currentcolor;
+  font-size: 100%;
+  top: 0;
+}
+
+table.show-unsorted-icon th:not([aria-sort]) button span::after {
+  content: "♢";
+  color: currentcolor;
+  font-size: 100%;
+  position: relative;
+  top: -3px;
+  left: -4px;
+}
+
+table.sortable td.num {
+  text-align: right;
+}
+
+/*table.sortable tbody tr:nth-child(odd) {
+  background-color: #ddd;
+}*/
+
+/* Focus and hover styling */
+
+table.sortable th button:focus,
+table.sortable th button:hover {
+  padding: 2px;
+  border: 2px solid currentcolor;
+  background-color: #e5f4ff;
+}
+
+table.sortable th button:focus span,
+table.sortable th button:hover span {
+  right: 2px;
+}
+
+table.sortable th:not([aria-sort]) button:focus span::after,
+table.sortable th:not([aria-sort]) button:hover span::after {
+  content: "▼";
+  color: currentcolor;
+  font-size: 100%;
+  top: 0;
+}
+
+
+	</style>
+</head>
+<body>
+
+<a class="index" href="../index.html">Index</a>
+<div>
+<h1>List of Railroads, Logging and Mining Companies</h1>
+<div class="table-wrap"><table class="sortable">
+  <caption>
+  Abbreviations and Railroad columns are sortable
+    <span class="sr-only"> (column headers with buttons are sortable).</span>
+  </caption>
+  <thead>
+    <tr>
+      <th>
+        <button>
+          Abbreviations
+          <span aria-hidden="true"></span>
+        </button>
+      </th>
+      <th aria-sort="ascending">
+        <button>
+          Railroad
+          <span aria-hidden="true"></span>
+        </button>
+      </th>
+      <th class="no-sort">Logo</th>
+    </tr>
+  </thead>
+  <tbody> 	 
+
+
+
+<tr><td>A&EC</td><td>Atlantic & East Carolina Railway</td><td></td></tr>
+<tr><td>A&LM</td><td>Arkansas & Louisiana Missouri Rwy</td><td></td></tr>
+<tr><td>A&R</td><td>Aberdeen & Rockfish Railroad</td><td></td></tr>
+<tr><td>A&S</td><td>Alton & Southern Railroad</td><td></td></tr>
+<tr><td>A&WP</td><td>Atlanta & West Point Railroad</td><td></td></tr>
+<tr><td>A.A.R</td><td>American Association Of Railroads</td><td></td></tr>
+<tr><td>AARR</td><td>Ann Arbor Railroad System</td><td></td></tr>
+<tr><td>AC&F</td><td>American Car & Foundry Company</td><td></td></tr>
+<tr><td>AC&Y</td><td>Akron, Canton & Youngstown RR</td><td></td></tr>
+<tr><td>ACL</td><td>Atlantic Coast Line Railroad</td><td></td></tr>
+<tr><td>AGS</td><td>Alabama Great Southern Railroad</td><td></td></tr>
+<tr><td>AH&D</td><td>American Hoist & Derrick</td><td></td></tr>
+<tr><td>ALASK</td><td>Alaska Railroad</td><td></td></tr>
+<tr><td>ALCO</td><td>American Locomotive Company</td><td></td></tr>
+<tr><td>AMTRK</td><td>Amtrak</td><td></td></tr>
+<tr><td>ARE</td><td>American Railway Express</td><td></td></tr>
+<tr><td>AT&SF</td><td>Atchison, Topeka & Santa Fe Rwy.</td><td></td></tr>
+<tr><td>AUSTR</td><td>Commonwealth of Australia</td><td></td></tr>
+<tr><td>B&A</td><td>Boston & Albany Railroad</td><td></td></tr>
+<tr><td>B&LE</td><td>Bessemer & Lake Erie Railroad</td><td></td></tr>
+<tr><td>B&M</td><td>Boston & Maine Railroad</td><td></td></tr>
+<tr><td>B&O</td><td>Baltimore & Ohio Railroad</td><td></td></tr>
+<tr><td>BA&P</td><td>Butte, Anaconda & Pacific Railway</td><td></td></tr>
+<tr><td>BAR</td><td>Bangor & Aroostook Railroad</td><td></td></tr>
+<tr><td>BCR</td><td>British Columbia Railway; BC Rail</td><td></td></tr>
+<tr><td>BEYER</td><td>Beyer-Garratt</td><td></td></tr>
+<tr><td>BHP</td><td>BHP Billiton</td><td></td></tr>
+<tr><td>BLW</td><td>Baldwin Locomotive Works</td><td></td></tr>
+<tr><td>BMT</td><td>Brooklyn-Manhattan Transit</td><td></td></tr>
+<tr><td>BN</td><td>Burlington Northern Railroad</td><td></td></tr>
+<tr><td>BNSF</td><td>Burlington Northern Santa Fe Rwy.</td><td></td></tr>
+<tr><td>BORDN</td><td>Borden Milk Products</td><td></td></tr>
+<tr><td>BRT</td><td>Brooklyn Rapid Transit Company</td><td></td></tr>
+<tr><td>BTC</td><td>Baltimore Transit Company</td><td></td></tr>
+<tr><td>C&EI</td><td>Chicago & Eastern Illinois RR</td><td></td></tr>
+<tr><td>C&IM</td><td>Chicago & Illinois Midland Rwy.</td><td></td></tr>
+<tr><td>C&LE</td><td>Cincinnati & Lake Erie</td><td></td></tr>
+<tr><td>C&NW</td><td>Chicago & Northwestern Railway</td><td></td></tr>
+<tr><td>C&O</td><td>Chesapeake & Ohio Railway</td><td></td></tr>
+<tr><td>C&S</td><td>Colorado & Southern Railway District</td><td></td></tr>
+<tr><td>C&Sn3</td><td>Colorado & Southern Narrow Gauge</td><td></td></tr>
+<tr><td>C&WC</td><td>Charleston & West Carolina RR (See: ACL, ATLANTIC COAST LINE)</td><td></td></tr>
+<tr><td>CA&E</td><td>Chicago, Aurora & Elgin Railroad</td><td></td></tr>
+<tr><td>CALTR</td><td>Caltrain</td><td></td></tr>
+<tr><td>CB&Q</td><td>Chicago, Burlington & Quincy RR</td><td></td></tr>
+<tr><td>CD&M</td><td>Columbus, Delaware & Marion Rwy.</td><td></td></tr>
+<tr><td>CEFX</td><td>CIT Equipment Finance Corporation</td><td></td></tr>
+<tr><td>CERA</td><td>Central Electric Railway Assoc.</td><td></td></tr>
+<tr><td>CGW</td><td>Chicago Great Western Railway</td><td></td></tr>
+<tr><td>CIT</td><td>CIT Leasing</td><td></td></tr>
+<tr><td>CLINC</td><td>Clinchfield Railroad</td><td></td></tr>
+<tr><td>CM</td><td>Colorado Midland Railway</td><td></td></tr>
+<tr><td>CMSPP</td><td>Chigago, Milwaukee, St. Paul & Pacific RR</td><td></td></tr>
+<tr><td>CN</td><td>Canadian National Railways</td><td></td></tr>
+<tr><td>CNJ</td><td>Central Railroad of New Jersey</td><td></td></tr>
+<tr><td>CNOTP</td><td>Cincinnati, New Orleans & Texas Pacific Rwy.</td><td></td></tr>
+<tr><td>CNS&M</td><td>Chicago, North Shore & Milwaukee RR</td><td></td></tr>
+<tr><td>COD</td><td>City of Detroit - D.S.R. - Dept. of Street Railways</td><td></td></tr>
+<tr><td>CONN</td><td>Connecticut Co.</td><td></td></tr>
+<tr><td>CONOC</td><td>Conoco, Inc.</td><td></td></tr>
+<tr><td>CONRL</td><td>Conrail</td><td></td></tr>
+<tr><td>CP</td><td>Central Pacific Railroad</td><td></td></tr>
+<tr><td>CP-UP</td><td>Central Pacific - Union Pacific</td><td></td></tr>
+<tr><td>CPR</td><td>Canadian Pacific Railway</td><td></td></tr>
+<tr><td>CRI&P</td><td>Chicago, Rock Island & Pacific RR</td><td></td></tr>
+<tr><td>CS&CC</td><td>Colorado Springs & Cripple Creek District</td><td></td></tr>
+<tr><td>CSL</td><td>Chicago Surface Lines</td><td></td></tr>
+<tr><td>CSSSB</td><td>Chicago South Shore & South Bend RR</td><td></td></tr>
+<tr><td>CSX</td><td>CSX Transportation</td><td></td></tr>
+<tr><td>CSXT</td><td>CSX Transportation</td><td></td></tr>
+<tr><td>CTA</td><td>Chicago Transit Authority</td><td></td></tr>
+<tr><td>CTDOT</td><td>Connecticut Dept. of Transportati on</td><td></td></tr>
+<tr><td>CUBA</td><td>Consolidated Railroads of Cuba - Ferrocarriles De Cuba</td><td></td></tr>
+<tr><td>CUT</td><td>Cleveland Union Terminal</td><td></td></tr>
+<tr><td>CV</td><td>Central Vermont Railway</td><td></td></tr>
+<tr><td>CZ</td><td>California Zephyr</td><td></td></tr>
+<tr><td>CalNo</td><td>California Northern Railroad</td><td></td></tr>
+<tr><td>D&H</td><td>Delaware & Hudson Railroad</td><td></td></tr>
+<tr><td>D&NE</td><td>Duluth & Northeastern Railroad</td><td></td></tr>
+<tr><td>D&RGW</td><td>Denver & Rio Grande Western RR</td><td></td></tr>
+<tr><td>D&RGn</td><td>Denver & Rio Grande Narrow Gauge</td><td></td></tr>
+<tr><td>D&SL</td><td>Denver & Salt Lake Railroad</td><td></td></tr>
+<tr><td>D&T</td><td>Dayton & Troy Electric Railway</td><td></td></tr>
+<tr><td>D&TSL</td><td>Detroit & Toledo Shore Line RR</td><td></td></tr>
+<tr><td>DL&W</td><td>Delaware, Lackawanna & Western RR</td><td></td></tr>
+<tr><td>DM&IR</td><td>Duluth, Missabe & Iron Range Rwy.</td><td></td></tr>
+<tr><td>DNW&P</td><td>Denver, Northwestern & Pacific Rwy. (ex. D&SL)</td><td></td></tr>
+<tr><td>DSP&P</td><td>Denver, South Park & Pacific</td><td></td></tr>
+<tr><td>DSS&A</td><td>Duluth, South Shore & Atlantic Rwy.</td><td></td></tr>
+<tr><td>DT&I</td><td>Detroit, Toledo & Ironton RR</td><td></td></tr>
+<tr><td>DW&P</td><td>Duluth, Winnipeg & Pacific Rwy.</td><td></td></tr>
+<tr><td>EBTn3</td><td>East Broad Top - Narrow Gauge</td><td></td></tr>
+<tr><td>EJ&E</td><td>Elgin, Joliet & Eastern Railway</td><td></td></tr>
+<tr><td>EMD</td><td>Electro-Motive Division (GM)</td><td></td></tr>
+<tr><td>ERIE</td><td>Erie Railroad</td><td></td></tr>
+<tr><td>ErieL</td><td>Erie Lackawanna Railway</td><td></td></tr>
+<tr><td>ErieM</td><td>Erie Mining Company Railroad</td><td></td></tr>
+<tr><td>F&CCD</td><td>Florence & Cripple Creek District</td><td></td></tr>
+<tr><td>FEC</td><td>Florida East Coast Railway</td><td></td></tr>
+<tr><td>FERRO</td><td>Ferrocarril Mexicano</td><td></td></tr>
+<tr><td>FJ&G</td><td>Fonda, Johnstown & Gloversville RR Company</td><td></td></tr>
+<tr><td>FM</td><td>Fairbanks-Morse & Company</td><td></td></tr>
+<tr><td>FORD</td><td>Ford Motor Co.</td><td></td></tr>
+<tr><td>FRISC</td><td>St. Louis - San Francisco Rwy. - SLSF - Frisco</td><td></td></tr>
+<tr><td>FW&D</td><td>Fort Worth & Denver Railway</td><td></td></tr>
+<tr><td>G.A.</td><td>General American Marks Company</td><td></td></tr>
+<tr><td>G.E.</td><td>General Electric Company</td><td></td></tr>
+<tr><td>GAPC</td><td>General American - Pfaudler Corp.</td><td></td></tr>
+<tr><td>GARE</td><td>General American Transportation Corp.</td><td></td></tr>
+<tr><td>GATC</td><td>General American Transportation Corp.</td><td></td></tr>
+<tr><td>GBW</td><td>Green Bay & Western Railroad</td><td></td></tr>
+<tr><td>GECX</td><td>General Electric Company</td><td></td></tr>
+<tr><td>GM</td><td>General Motors Corporation</td><td></td></tr>
+<tr><td>GM&O</td><td>Gulf, Mobile & Ohio Railroad</td><td></td></tr>
+<tr><td>GMRR</td><td>Green Mountain Railroad Co.</td><td></td></tr>
+<tr><td>GN</td><td>Great Northern Railway</td><td></td></tr>
+<tr><td>GRNVL</td><td>Greenville & Northern Railway</td><td></td></tr>
+<tr><td>GRS</td><td>Guilford Rail System</td><td></td></tr>
+<tr><td>GTW</td><td>Grand Trunk Western Railroad</td><td></td></tr>
+<tr><td>GW</td><td>Great Western Railway</td><td></td></tr>
+<tr><td>HELM</td><td>Helm Leasing (HLCX)</td><td></td></tr>
+<tr><td>IC</td><td>Illinois Central Railroad</td><td></td></tr>
+<tr><td>ICG</td><td>Illinois Central Gulf Railroad</td><td></td></tr>
+<tr><td>IHB</td><td>Indiana Harbor Belt Railroad</td><td></td></tr>
+<tr><td>INT'L</td><td>International Car Company</td><td></td></tr>
+<tr><td>IRR</td><td>Indiana Railroad</td><td></td></tr>
+<tr><td>ITR</td><td>Illinois Terminal Railroad</td><td></td></tr>
+<tr><td>ITS</td><td>Illinois Traction System</td><td></td></tr>
+<tr><td>ITT</td><td>ITT Rayonier Railroad</td><td></td></tr>
+<tr><td>IU</td><td>Indianapolis Union Railway</td><td></td></tr>
+<tr><td>J&L</td><td>Jones & Laughlin Steel Corp.</td><td></td></tr>
+<tr><td>JNR</td><td>Japanese National Railroad</td><td></td></tr>
+<tr><td>K-M</td><td>Krauss-Maffei</td><td></td></tr>
+<tr><td>KCS</td><td>Kansas City Southern Railway</td><td></td></tr>
+<tr><td>KCSdM</td><td>Kansas City Southern de Mexico</td><td></td></tr>
+<tr><td>KCT</td><td>Kansas City Terminal Railway</td><td></td></tr>
+<tr><td>KO&G</td><td>Kansas, Oklahoma & Gulf Railway</td><td></td></tr>
+<tr><td>L&A</td><td>Louisiana & Arkansas Railway</td><td></td></tr>
+<tr><td>L&HR</td><td>Lehigh & Hudson River Railway</td><td></td></tr>
+<tr><td>L&N</td><td>Louisville & Nashville Railroad</td><td></td></tr>
+<tr><td>L&NE</td><td>Lehigh & New England Railroad</td><td></td></tr>
+<tr><td>L&NW</td><td>Lousiana & North West Railroad</td><td></td></tr>
+<tr><td>L.A.R</td><td>Los Angeles Railway Streetcars</td><td></td></tr>
+<tr><td>LACK</td><td>Lackawanna Railway</td><td></td></tr>
+<tr><td>LE&W</td><td>Lake Erie & Western</td><td></td></tr>
+<tr><td>LINDE</td><td>Linde - Union Carbide</td><td></td></tr>
+<tr><td>LIRR</td><td>Long Island Railroad</td><td></td></tr>
+<tr><td>LOG</td><td>Logging Equipment</td><td></td></tr>
+<tr><td>LOG-R</td><td>Logging Locomotives - Rod Type</td><td></td></tr>
+<tr><td>LS&MS</td><td>Lake Shore & Michigan Southern Ry</td><td></td></tr>
+<tr><td>LSE</td><td>Lake Shore Electric Railway</td><td></td></tr>
+<tr><td>LV</td><td>Lehigh Valley Railroad</td><td></td></tr>
+<tr><td>LVT</td><td>Lehigh Valley Transit</td><td></td></tr>
+<tr><td>M&StL</td><td>Minneapolis & St. Louis Railway</td><td></td></tr>
+<tr><td>MA&PA</td><td>Maryland & Pennsylvania Railroad</td><td></td></tr>
+<tr><td>MACK</td><td>Mack Trucks</td><td></td></tr>
+<tr><td>MAERS</td><td>Maersk Line</td><td></td></tr>
+<tr><td>MARC</td><td>Maryland Dept. of Transportation</td><td></td></tr>
+<tr><td>MBTA</td><td>Massachusetts Bay Transit Auth.</td><td></td></tr>
+<tr><td>MEC</td><td>Maine Central Railroad</td><td></td></tr>
+<tr><td>MESTA</td><td>Mesta Machine Co.</td><td></td></tr>
+<tr><td>MILW</td><td>Milwaukee Road (See also CMSPP)</td><td></td></tr>
+<tr><td>MISC</td><td>Miscellaneous / Generic Standard Gauge</td><td></td></tr>
+<tr><td>MISCn</td><td>Miscellaneous / Generic Narrow Gauge</td><td></td></tr>
+<tr><td>MKT</td><td>Missouri-Kansas-Texas Railroad (Katy)</td><td></td></tr>
+<tr><td>MLW</td><td>Montreal Locomotive Works</td><td></td></tr>
+<tr><td>MN&S</td><td>Minneapolis Northfield & Southern Railway</td><td></td></tr>
+<tr><td>MONON</td><td>Monon Railroad</td><td></td></tr>
+<tr><td>MOPAC</td><td>Missouri Pacific Railroad</td><td></td></tr>
+<tr><td>MRL</td><td>Montana Rail Link</td><td></td></tr>
+<tr><td>MTA</td><td>Metropolitan Transportation Auth. New York</td><td></td></tr>
+<tr><td>MV</td><td>Midland Valley Railroad</td><td></td></tr>
+<tr><td>Met.N</td><td>Metro North (New York)</td><td></td></tr>
+<tr><td>N&W</td><td>Norfolk & Western Railway</td><td></td></tr>
+<tr><td>N.A.</td><td>North American Car Company - NAHX</td><td></td></tr>
+<tr><td>NAR</td><td>Northern Alberta Railroad</td><td></td></tr>
+<tr><td>NB&Wn</td><td>New Berlin & Winfield Narrow Gauge</td><td></td></tr>
+<tr><td>NC&SL</td><td>Nashville, Chatanooga & St. Louis Rwy.</td><td></td></tr>
+<tr><td>NCDOT</td><td>North Carolina D.O.T.</td><td></td></tr>
+<tr><td>NCn3</td><td>Nevada County Narrow Gauge</td><td></td></tr>
+<tr><td>NELSN</td><td>Nelson Manufacturing</td><td></td></tr>
+<tr><td>NH</td><td>New York, New Haven & Hartford RR</td><td></td></tr>
+<tr><td>NJT</td><td>New Jersey Transit</td><td></td></tr>
+<tr><td>NKP</td><td>Nickle Plate Road (Also NYC&StL)</td><td></td></tr>
+<tr><td>NOPS</td><td>New Orleans Public Service</td><td></td></tr>
+<tr><td>NP</td><td>Northern Pacific Railway</td><td></td></tr>
+<tr><td>NP/BN</td><td>Northern Pacific - Burlington Northern</td><td></td></tr>
+<tr><td>NS</td><td>Norfolk Southern Railway</td><td></td></tr>
+<tr><td>NSWGR</td><td>New South Wales Government Railways</td><td></td></tr>
+<tr><td>NSWR</td><td>New South Wales Railways</td><td></td></tr>
+<tr><td>NYC</td><td>New York Central System</td><td></td></tr>
+<tr><td>NYO&W</td><td>New York Ontario & Western Rwy.</td><td></td></tr>
+<tr><td>NYRC</td><td>New York Railways Co.</td><td></td></tr>
+<tr><td>NYS&W</td><td>New York Susquehanna & Western Railway</td><td></td></tr>
+<tr><td>NdeM</td><td>Nacionales de Mexico</td><td></td></tr>
+<tr><td>O&NW</td><td>Oregon & Northwestern Railroad</td><td></td></tr>
+<tr><td>OMAHA</td><td>Chicaco, St.Paul, Minneapolis & Omaha RR - (also CStPM&O)</td><td></td></tr>
+<tr><td>ONR</td><td>Ontario Northland Railway</td><td></td></tr>
+<tr><td>OregE</td><td>Oregon Electric Railway</td><td></td></tr>
+<tr><td>P&LE</td><td>Pittsburg & Lake Erie Railroad</td><td></td></tr>
+<tr><td>P&O</td><td>Pennsylvania & Ohio Electric / Traction</td><td></td></tr>
+<tr><td>P&R</td><td>Philadelphia & Reading Railroad</td><td></td></tr>
+<tr><td>P&W</td><td>Philadelphia & Western Railway</td><td></td></tr>
+<tr><td>P.E.</td><td>Pacific Electric Railway</td><td></td></tr>
+<tr><td>P.R.</td><td>Portland Railway</td><td></td></tr>
+<tr><td>PADOT</td><td>Pennsylvania D.O.T</td><td></td></tr>
+<tr><td>PC</td><td>Penn Central</td><td></td></tr>
+<tr><td>PC&F</td><td>Pacific Car & Foundry Company</td><td></td></tr>
+<tr><td>PCC</td><td>Presidents Conference Committee</td><td></td></tr>
+<tr><td>PCR</td><td>Panama Canal Railway</td><td></td></tr>
+<tr><td>PE&E</td><td>Portland, Eugene & Eastern Rwy.</td><td></td></tr>
+<tr><td>PFE</td><td>Pacific Fruit Express</td><td></td></tr>
+<tr><td>PGE</td><td>Pacific Great Eastern Railway NEW YORK</td><td></td></tr>
+<tr><td>PLC</td><td>Pickering Lumber Co.</td><td></td></tr>
+<tr><td>PM</td><td>Pere Marquette Railroad</td><td></td></tr>
+<tr><td>PRR</td><td>Pennsylvania Railroad</td><td></td></tr>
+<tr><td>PRSL</td><td>Penn-Reading Seashore Line</td><td></td></tr>
+<tr><td>PST</td><td>Philadelphia Suburban Trans'n Co.</td><td></td></tr>
+<tr><td>PTC</td><td>Philadelphia Transit Company</td><td></td></tr>
+<tr><td>PULLM</td><td>Pullman Company, Pullman Standard</td><td></td></tr>
+<tr><td>QNS&L</td><td>Quebec, North Shore & Labrador Ry</td><td></td></tr>
+<tr><td>RDG</td><td>Reading Railroad</td><td></td></tr>
+<tr><td>REA</td><td>Railway Express Agency</td><td></td></tr>
+<tr><td>REX</td><td>Railway Express Agency</td><td></td></tr>
+<tr><td>RF&P</td><td>Richmond, Fredericksburg & Potomac Railroad</td><td></td></tr>
+<tr><td>RGSn</td><td>Rio Grande Southern Narrow Gauge</td><td></td></tr>
+<tr><td>RTNKP</td><td>Richmond Tank Car Company</td><td></td></tr>
+<tr><td>RUTLD</td><td>Rutland Railroad</td><td></td></tr>
+<tr><td>S&A</td><td>Savannah & Atlanta Railroad</td><td></td></tr>
+<tr><td>S.A.</td><td>Saudi Arabia</td><td></td></tr>
+<tr><td>SAL</td><td>Seaboard Air Line Railway</td><td></td></tr>
+<tr><td>SBD</td><td>Seaboard System Railroad</td><td></td></tr>
+<tr><td>SCL</td><td>Seaboard Coast Line Railroad</td><td></td></tr>
+<tr><td>SDT</td><td>San Diego Trolley</td><td></td></tr>
+<tr><td>SEPTA</td><td>Southeastern Pennsylvania Transpo rtation Authority</td><td></td></tr>
+<tr><td>SERA</td><td>Sierra Railroad</td><td></td></tr>
+<tr><td>SLSF</td><td>St. Louis - San Francisco Railway (Frisco)</td><td></td></tr>
+<tr><td>SMV</td><td>Santa Maria Valley</td><td></td></tr>
+<tr><td>SN</td><td>Sacramento Northern Railway</td><td></td></tr>
+<tr><td>SNCF</td><td>French National Railway Company - Societe Nationale des Chemins de</td><td></td></tr>
+<tr><td>SOO</td><td>Soo Line Railroad</td><td></td></tr>
+<tr><td>SP</td><td>Southern Pacific Railroad</td><td></td></tr>
+<tr><td>SP n3</td><td>Southern Pacific Narrow Gauge</td><td></td></tr>
+<tr><td>SP&S</td><td>Spokane, Portland & Seattle Rwy.</td><td></td></tr>
+<tr><td>SPSF</td><td>Southern Pacific - Santa Fe</td><td></td></tr>
+<tr><td>SPTNO</td><td>Southern Pacific - Texas & New Orleans</td><td></td></tr>
+<tr><td>SR</td><td>Southern Railway</td><td></td></tr>
+<tr><td>SR&RL</td><td>Sandy River & Rangeley Lakes RR</td><td></td></tr>
+<tr><td>SSR</td><td>Swedish State Railway HAND BUILT IN JAPAN; 3 MOTORS</td><td></td></tr>
+<tr><td>SSW</td><td>St. Louis Southwestern Railway also Cotton Belt</td><td></td></tr>
+<tr><td>SVn3</td><td>Sumpter Valley Narrow Gauge</td><td></td></tr>
+<tr><td>St.PP</td><td>St. Paul & Pacific Railroad</td><td></td></tr>
+<tr><td>T&M</td><td>Texas Mexican Railway</td><td></td></tr>
+<tr><td>T&P</td><td>Texas & Pacific Railway</td><td></td></tr>
+<tr><td>TARS</td><td>Third Avenue Railway System (NY)</td><td></td></tr>
+<tr><td>TC</td><td>Tennessee Central Railway</td><td></td></tr>
+<tr><td>TCRT</td><td>Twin City Rapid Transit Company</td><td></td></tr>
+<tr><td>TCX</td><td>Texaco Tank Company</td><td></td></tr>
+<tr><td>TFM</td><td>Transportacion Ferroviaria Mexica na</td><td></td></tr>
+<tr><td>TH&B</td><td>Toronto, Hamilton & Buffalo Rwy.</td><td></td></tr>
+<tr><td>TIMKN</td><td>Timken Roller Bearing Company (TRBX)</td><td></td></tr>
+<tr><td>TMBL</td><td>Tacoma Municipal Belt Line</td><td></td></tr>
+<tr><td>TRONA</td><td>Trona Railway</td><td></td></tr>
+<tr><td>TTJX</td><td>Trailer Train Co.</td><td></td></tr>
+<tr><td>TWEET</td><td>Tweetsie Railroad</td><td></td></tr>
+<tr><td>U.P.</td><td>Union Pacific Railroad</td><td></td></tr>
+<tr><td>U.P.V</td><td>U.P. Valley</td><td></td></tr>
+<tr><td>UINTA</td><td>Uintah Railway</td><td></td></tr>
+<tr><td>UR</td><td>Union Railroad</td><td></td></tr>
+<tr><td>URTX</td><td>General American Transportation Corp.</td><td></td></tr>
+<tr><td>USRA</td><td>United States Railroad Admin.</td><td></td></tr>
+<tr><td>UTAH</td><td>Utah Railway</td><td></td></tr>
+<tr><td>UTLX</td><td>Union Tank Company (GRAMPS)</td><td></td></tr>
+<tr><td>V&T</td><td>Virginia & Truckee Railroad</td><td></td></tr>
+<tr><td>VE</td><td>Visalia Electric Railroad</td><td></td></tr>
+<tr><td>VIA</td><td>Via Rail (Canada)</td><td></td></tr>
+<tr><td>VIRG</td><td>Virginian Railway</td><td></td></tr>
+<tr><td>VTR</td><td>Vermont Railway</td><td></td></tr>
+<tr><td>W&LE</td><td>Wheeling & Lake Erie Railroad</td><td></td></tr>
+<tr><td>W&W</td><td>Wilmington & Weldon Railway</td><td></td></tr>
+<tr><td>WA&G</td><td>Wellsville, Addison & Galeton RR</td><td></td></tr>
+<tr><td>WABAS</td><td>Wabash Railway</td><td></td></tr>
+<tr><td>WATC</td><td>Washington Terminal Company</td><td></td></tr>
+<tr><td>WC</td><td>Wisconsin Central Railway</td><td></td></tr>
+<tr><td>WC&F</td><td>Waterloo, Cedar Falls & Northern RR</td><td></td></tr>
+<tr><td>WM</td><td>Western Maryland Railway</td><td></td></tr>
+<tr><td>WP</td><td>Western Pacific Railroad</td><td></td></tr>
+<tr><td>WP&Yn</td><td>White Pass & Yukon Route Narrow Gauge</td><td></td></tr>
+<tr><td>YV</td><td>Yosemite Valley Railroad</td><td></td></tr>
+<tr><td>YVT</td><td>Yakima Valley Trolley</td><td></td></tr>
+
+
+
+  </tbody>
+</table></div>
+<br>
+<p Class="center">code for this sortable table modified from <a href="https://www.w3.org/WAI/ARIA/apg/patterns/table/examples/sortable-table/">https://www.w3.org/WAI/ARIA/apg/patterns/table/examples/sortable-table/</a></p>
+<br>
+
+</div>
+
+<script>
+/*
+ *   This content is licensed according to the W3C Software License at
+ *   https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document
+ *
+ *   File:   sortable-table.js
+ *
+ *   Desc:   Adds sorting to a HTML data table that implements ARIA Authoring Practices
+ */
+
+'use strict';
+
+class SortableTable {
+  constructor(tableNode) {
+    this.tableNode = tableNode;
+
+    this.columnHeaders = tableNode.querySelectorAll('thead th');
+
+    this.sortColumns = [];
+
+    for (var i = 0; i < this.columnHeaders.length; i++) {
+      var ch = this.columnHeaders[i];
+      var buttonNode = ch.querySelector('button');
+      if (buttonNode) {
+        this.sortColumns.push(i);
+        buttonNode.setAttribute('data-column-index', i);
+        buttonNode.addEventListener('click', this.handleClick.bind(this));
+      }
+    }
+
+    this.optionCheckbox = document.querySelector(
+      'input[type="checkbox"][value="show-unsorted-icon"]'
+    );
+
+    if (this.optionCheckbox) {
+      this.optionCheckbox.addEventListener(
+        'change',
+        this.handleOptionChange.bind(this)
+      );
+      if (this.optionCheckbox.checked) {
+        this.tableNode.classList.add('show-unsorted-icon');
+      }
+    }
+  }
+
+  setColumnHeaderSort(columnIndex) {
+    if (typeof columnIndex === 'string') {
+      columnIndex = parseInt(columnIndex);
+    }
+
+    for (var i = 0; i < this.columnHeaders.length; i++) {
+      var ch = this.columnHeaders[i];
+      var buttonNode = ch.querySelector('button');
+      if (i === columnIndex) {
+        var value = ch.getAttribute('aria-sort');
+        if (value === 'descending') {
+          ch.setAttribute('aria-sort', 'ascending');
+          this.sortColumn(
+            columnIndex,
+            'ascending',
+            ch.classList.contains('num')
+          );
+        } else {
+          ch.setAttribute('aria-sort', 'descending');
+          this.sortColumn(
+            columnIndex,
+            'descending',
+            ch.classList.contains('num')
+          );
+        }
+      } else {
+        if (ch.hasAttribute('aria-sort') && buttonNode) {
+          ch.removeAttribute('aria-sort');
+        }
+      }
+    }
+  }
+
+  sortColumn(columnIndex, sortValue, isNumber) {
+    function compareValues(a, b) {
+      if (sortValue === 'ascending') {
+        if (a.value === b.value) {
+          return 0;
+        } else {
+          if (isNumber) {
+            return a.value - b.value;
+          } else {
+            return a.value < b.value ? -1 : 1;
+          }
+        }
+      } else {
+        if (a.value === b.value) {
+          return 0;
+        } else {
+          if (isNumber) {
+            return b.value - a.value;
+          } else {
+            return a.value > b.value ? -1 : 1;
+          }
+        }
+      }
+    }
+
+    if (typeof isNumber !== 'boolean') {
+      isNumber = false;
+    }
+
+    var tbodyNode = this.tableNode.querySelector('tbody');
+    var rowNodes = [];
+    var dataCells = [];
+
+    var rowNode = tbodyNode.firstElementChild;
+
+    var index = 0;
+    while (rowNode) {
+      rowNodes.push(rowNode);
+      var rowCells = rowNode.querySelectorAll('th, td');
+      var dataCell = rowCells[columnIndex];
+
+      var data = {};
+      data.index = index;
+      data.value = dataCell.textContent.toLowerCase().trim();
+      if (isNumber) {
+        data.value = parseFloat(data.value);
+      }
+      dataCells.push(data);
+      rowNode = rowNode.nextElementSibling;
+      index += 1;
+    }
+
+    dataCells.sort(compareValues);
+
+    // remove rows
+    while (tbodyNode.firstChild) {
+      tbodyNode.removeChild(tbodyNode.lastChild);
+    }
+
+    // add sorted rows
+    for (var i = 0; i < dataCells.length; i += 1) {
+      tbodyNode.appendChild(rowNodes[dataCells[i].index]);
+    }
+  }
+
+  /* EVENT HANDLERS */
+
+  handleClick(event) {
+    var tgt = event.currentTarget;
+    this.setColumnHeaderSort(tgt.getAttribute('data-column-index'));
+  }
+
+  handleOptionChange(event) {
+    var tgt = event.currentTarget;
+
+    if (tgt.checked) {
+      this.tableNode.classList.add('show-unsorted-icon');
+    } else {
+      this.tableNode.classList.remove('show-unsorted-icon');
+    }
+  }
+}
+
+// Initialize sortable table buttons
+window.addEventListener('load', function () {
+  var sortableTables = document.querySelectorAll('table.sortable');
+  for (var i = 0; i < sortableTables.length; i++) {
+    new SortableTable(sortableTables[i]);
+  }
+});
+
+</script>
+
+</body>
+</html>

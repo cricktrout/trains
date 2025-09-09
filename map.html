@@ -1,0 +1,82 @@
+<html>
+  <head>
+	<title>Kevin's Train Map</title>
+	<link rel="icon" type="image/x-icon" href="admin/logo.png">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script type="module" src="./index.js"></script>
+	<link rel="stylesheet" href="admin/train.css">
+  </head>
+  <body>
+<a class="index" href="index.html">Index</a>
+    <gmp-map
+      center="40.900323, -122.502521"
+      zoom="5.4"
+      map-id="DEMO_MAP_ID"
+      style="height: 100%"
+    >
+
+<!-- California locomotives -->
+	<a href="california/alan_shelly_unk.html"><gmp-advanced-marker position="38.682043, -121.165650" title="Alan Shelly #Unknown, Folsom California"></gmp-advanced-marker></a>
+	<a href="california/alco2360.html"><gmp-advanced-marker position="38.752047, -121.281714" title="ALCO #2360 Roseville,  California"></gmp-advanced-marker></a>
+	<a href="california/alco2409.html"><gmp-advanced-marker position="34.083691, -117.770318" title="ALCO #2409, Pomona California"></gmp-advanced-marker></a>
+
+	<a href="california/.html"><gmp-advanced-marker position="" title=" #,  California"></gmp-advanced-marker></a>
+	<a href="california/.html"><gmp-advanced-marker position="" title=" #,  California"></gmp-advanced-marker></a>
+	<a href="california/.html"><gmp-advanced-marker position="" title=" #,  California"></gmp-advanced-marker></a>
+	
+	
+		
+			
+	
+	
+	
+	
+<!-- Oregon locomotives -->	
+	<a href="oregon/alco56181.html"><gmp-advanced-marker position="43.937749, -124.104470" title="ALCO #56181, Florence Oregon"    ></gmp-advanced-marker></a>
+	<a href="oregon/alco62965.html"><gmp-advanced-marker position="43.390606, -123.309163" title="ALCO #62965, Sutherlin Oregon" ></gmp-advanced-marker></a>
+	<a href="oregon/baldwin20670.html"><gmp-advanced-marker position="45.141127, -122.857518" title="Baldwin #20670, Woodburn Oregon"></gmp-advanced-marker></a>
+	<a href="oregon/baldwin24252.html"><gmp-advanced-marker position="45.010298,-122.994591" title="Baldwin #24252, Keizer Oregon"></gmp-advanced-marker></a>
+	<a href="oregon/baldwin27681.html"><gmp-advanced-marker position="42.220066, -121.786704" title="Baldwin #27681, Klamath Falls Oregon"></gmp-advanced-marker></a>
+	<a href="oregon/baldwin55347.html"><gmp-advanced-marker position="44.620346, -123.938512" title="Baldwin #55347, Toledo Oregon"></gmp-advanced-marker></a>
+	<a href="oregon/baldwin55399.html"><gmp-advanced-marker position="44.553274, -123.270110" title="Baldwin #55399, Corvallis Oregon"></gmp-advanced-marker></a>
+	<a href="oregon/baldwin55911.html"><gmp-advanced-marker position="43.36178, -124.211949" title="Baldwin #55911, Coos Bay Oregon"></gmp-advanced-marker></a>
+	<a href="oregon/baldwin57613.html"><gmp-advanced-marker position="44.859663, -123.187388" title="Baldwin #57613, Independence Oregon  (May not be viewable)"></gmp-advanced-marker></a>
+	<a href="oregon/baldwin58368.html"><gmp-advanced-marker position="46.185867, -123.858878" title="Baldwin #58368, Astoria Oregon"></gmp-advanced-marker></a>
+	<a href="oregon/baldwin7372.html"><gmp-advanced-marker position="42.643158, -121.881842" title="Baldwin #7372, Chiloquin Oregon"></gmp-advanced-marker></a>
+	<a href="oregon/garibaldi.html"><gmp-advanced-marker position="45.558702, -123.911424" title="3 locomotives, Garibaldi Oregon" ></gmp-advanced-marker></a>
+	<a href="oregon/lima1496.html"><gmp-advanced-marker position="43.217363,-123.372069" title="Lima #1496, Roseburg Oregon"></gmp-advanced-marker></a>
+	<a href="oregon/lima2172.html"><gmp-advanced-marker position="45.510088, -122.718305" title="Lima #2172, Portland Oregon"></gmp-advanced-marker></a>
+	<a href="oregon/lima2490.html"><gmp-advanced-marker position="45.858533, -123.192645" title="Lima #2490, Vernonia Oregon"></gmp-advanced-marker></a>
+	<a href="oregon/linne_n_jern68.html"><gmp-advanced-marker position="44.218513,-123.203299" title="Linne & Jern #68, Junction City Oregon"></gmp-advanced-marker></a>
+	<a href="oregon/merrill.html"><gmp-advanced-marker position="42.018242, -121.593588" title="11 locomotives, Merrill Oregon" ></gmp-advanced-marker></a>
+	<a href="oregon/orhc.html"><gmp-advanced-marker position="45.505946, -122.660664" title="4 locomotives and 2 tenders, Oregon Rail Heritage Center, Portland Oregon" text="6"></gmp-advanced-marker></a>
+	<a href="oregon/sumpter.html"><gmp-advanced-marker position="44.703035, -118.119501" title="3 locomotives, Sumpter  Oregon"></gmp-advanced-marker></a>
+	<a href="oregon/vulcan224.html"><gmp-advanced-marker position="42.336251, -122.886903" title="Vulcan #224, Medford Oregon"></gmp-advanced-marker></a>
+	<a href="oregon/vulcan_unk1.html"><gmp-advanced-marker position="45.668378,-121.895375" title="Vulcan #Unknown, Cascade Locks Oregon"></gmp-advanced-marker></a>
+	<a href="oregon/willamette18.html"><gmp-advanced-marker position="42.349297,-122.880557" title="Willamette #18, Medford Oregon"></gmp-advanced-marker></a>
+	<a href="oregon/zootrain.html"><gmp-advanced-marker position="45.509177,-122.715848" title="Washington Park & Zoo Railway, Portland  Oregon"></gmp-advanced-marker></a>
+	
+<!-- Oregon Live Steamers -->
+	<a href="oregon/chiloquin_live_steam.html"><gmp-advanced-marker position="42.559896, -121.886451" title=" 2 Live Steam Parks, Chiloquin, Oregon"></gmp-advanced-marker></a>
+	<a href="oregon/willow_creek.html"><gmp-advanced-marker position="45.05187771, -122.980594" title="Willow Creek Live Steamers, Salem Oregon"></gmp-advanced-marker></a> 
+	
+    </gmp-map>
+
+    <!-- 
+      The `defer` attribute causes the script to execute after the full HTML
+      document has been parsed. For non-blocking uses, avoiding race conditions,
+      and consistent behavior across browsers, consider loading using Promises. See
+      https://developers.google.com/maps/documentation/javascript/load-maps-js-api
+      for more information.
+      -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&libraries=maps,marker&v=beta"
+      defer
+    ></script>
+  </body>
+</html>
+
+
+
+
+

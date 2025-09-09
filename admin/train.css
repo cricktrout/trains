@@ -7,13 +7,98 @@ html, body {
 	height: 100%;
 	/*background: black;*/
 }
-p {
-  text-indent: 2em;
+
+div {
+	padding-left:10px;
+}
+.indent {
+	text-indent: 2em;
 }
 
-  img {
-    width: 25%;
-  }
+img {
+	display: block;
+	width: 25%;
+	margin: auto;
+}
+  
+ol {
+	padding-left: 20px;
+}
+
+h1, h2, h3, h4, h5 {
+text-align: center;
+}
+
+.center {
+text-align: center;
+}
+
+.tCenter {
+	margin: 0px auto;
+}
+
+.tdPadding {
+	padding: 0px 5px;
+}
+
+h1, h2, h3, h5, h5, p {
+padding: 0;
+margin: 0;
+}
+
+/*details {
+  text-align: center;
+}*/	 
+
+details[open] {
+  padding: 10px;
+}
+
+.index {
+  background-color: #b4b4b4;
+  opacity: 0.5;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 3px;
+  position: fixed;
+  right: 5px;
+  top: 5px;
+  z-index: 1000;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+}
+
+.red {
+	color: red;
+}
+
+.map {
+  width: 70px;
+}
+
+/*
+		th, td {
+		  padding-top: 0;
+		  padding-bottom: 0;
+		  padding-left: 10px;
+		  padding-right: 10px;
+		}
+
+		td, tr {
+			text-align: center;
+		}
+
+		tr:nth-child(even) {
+			background-color: #d3d3d3;
+		}
+
+		ul, li {
+			text-align: left;
+		}
+*/
 
 
  /* .image-container {
@@ -69,22 +154,6 @@ p {
   opacity: 0.2;
 }
 */
-.index {
-  background-color: #b4b4b4;
-  opacity: 0.5;
-  font-size: 12px;
-  font-weight: bold;
-  padding: 3px;
-  position: fixed;
-  right: 0px;
-  top: 0px;
-  z-index: 1000;
-  border: 1px solid black;
-  border-radius: 5px;
-  text-decoration: none;
-  color: black;
-  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
-}
 /*
 .chapter {
   background-color: #b4b4b4;
