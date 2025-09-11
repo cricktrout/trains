@@ -46,10 +46,6 @@ padding: 0;
 margin: 0;
 }
 
-/*details {
-  text-align: center;
-}*/	 
-
 details[open] {
   padding: 10px;
 }
@@ -59,7 +55,6 @@ details[open] {
   opacity: 0.5;
   font-size: 12px;
   font-weight: bold;
-  padding: 3px;
   position: fixed;
   right: 5px;
   top: 5px;
@@ -79,96 +74,62 @@ details[open] {
   width: 70px;
 }
 
-/*
-		th, td {
-		  padding-top: 0;
-		  padding-bottom: 0;
-		  padding-left: 10px;
-		  padding-right: 10px;
-		}
-
-		td, tr {
-			text-align: center;
-		}
-
-		tr:nth-child(even) {
-			background-color: #d3d3d3;
-		}
-
-		ul, li {
-			text-align: left;
-		}
-*/
-
-
- /* .image-container {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    overflow: hidden;
-  }
-  img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
-  .visible {
-    opacity: 1;
-  }
-  
-  .bakbutton {
-  background-color:rgb(0, 0, 0, 0.0);
-  padding: 3px;
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  height: 100%;
-  width: 29%;
-  border-style: none;
-  z-index: 1;
-  text-decoration: none;
-  color: gray;
-  font-size: 40px;
-  text-align: left;
-  opacity: 0.2;
+details.about {
+	position: fixed;
+	left: 10px;
+	top: 10px;
+	z-index: 1000;	
 }
-  
-  .forbutton {
-  background-color:rgb(0, 0, 0, 0.0);
-  padding: 3px;
-  position: fixed;
-  right: 0px;
-  top: 0px;
-  height: 100%;
-  width: 70%;
-  border-style: none;
-  z-index: 1;
-  color: gray;
-  font-size: 40px;
-  text-align: right;
-  opacity: 0.2;
+
+details.about[open] {
+	float:
+	background-color:rgba(255, 255, 255, 0.5);
+	position: fixed;
+	left: 5px;
+	top: 5px;
+	z-index: 1000;
+	border: 1px solid gray;
+	border-radius: 10px;
+	text-decoration: none;
+	color: black;
+	box-shadow: 8px 8px rgb(0 0 0 / 20%);
+	padding-top: 20px;
+	
 }
-*/
-/*
-.chapter {
-  background-color: #b4b4b4;
-  opacity: 0.5;
-  font-size: 12px;
-  font-weight: bold;
-  padding: 3px;
-  position: fixed;
-  right: 0px;
-  top: 0px;
-  z-index: 1000;
-  border: 1px solid black;
-  border-radius: 5px;
+details.about > summary {
+  list-style: none;
+}
+details.about > summary::-webkit-details-marker {
+  display: none;
+}
+
+.button {
+  width: 15px;
+	position: fixed;
+	left: 10px;
+	top: 10px;
+}
+
+a.but:link {
+	padding: 5px 5px 5px 5px;
   text-decoration: none;
   color: black;
-  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
 }
-*/
+
+a.but:visited {
+	padding: 5px 5px 5px 5px;
+  text-decoration: none;
+  color: black;
+}
+
+a.but:hover {
+	padding: 0px 0px 10px 10px;
+  text-decoration: none;
+  color: gray;
+}
+
+a.but:active {
+	padding: 5px 5px 5px 5px;
+  text-decoration: none;
+  color: black;
+}
